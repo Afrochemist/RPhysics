@@ -1,0 +1,9 @@
+Package: RPhysics
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Allan", "Broks", email = "afrochemist@gamil.com", role = c("aut", "cre"))
+Description: This package allows users to have a access to physics equations
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
