@@ -12,5 +12,5 @@ KE(m, v)
 \item{v}{The velocity at which the object is moving}
 }
 \description{
-KE
+The function calculates the kinetic energy of an object
 }

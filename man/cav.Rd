@@ -2,7 +2,7 @@
 % Please edit documentation in R/functions.R
 \name{cav}
 \alias{cav}
-\title{Centripetal Accelertion with velocity}
+\title{Centripetal Acceleration with velocity}
 \usage{
 cav(v, r)
 }
@@ -10,6 +10,9 @@ cav(v, r)
 \item{v}{The velocity}
 
 \item{r}{The radius}
+}
+\value{
+The ratio of the velocity squared over the ratio
 }
 \description{
 This function calculates the centripetal force in terms of velocity

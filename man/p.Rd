@@ -11,6 +11,9 @@ p(m, v)
 
 \item{v}{The velocity of the object}
 }
+\value{
+The product of the mass and volume
+}
 \description{
-Momentum
+The function calculates the momentum of an object
 }

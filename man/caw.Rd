@@ -11,6 +11,9 @@ caw(w, r)
 
 \item{r}{The radius}
 }
+\value{
+The product of the negative angular velocity squared and the radius
+}
 \description{
 This function calculates the centripetal force in terms of angular velocity
 }
