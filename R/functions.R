@@ -17,7 +17,7 @@ weight <-function(m){
 #'@param m The mass of an object
 #'@param v The velocity at which the object is moving
 #'@description The function calculates the kinetic energy of an object
-#'@return
+#'@return The product of one half of the product of mass and velocity squared
 KE <- function(m,v){
   return((0.5) * m * v^2)
 }
@@ -30,7 +30,7 @@ KE <- function(m,v){
 #'@title Force
 #'@param m The mass
 #'@param a Acceleration
-#'@description
+#'@description This function calculates the force of an object
 #'@return The of the mass and acceleration
 force <- function(m, a){
   return( m * a)
