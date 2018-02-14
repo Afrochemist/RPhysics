@@ -15,5 +15,5 @@ force(m, a)
 The of the mass and acceleration
 }
 \description{
-Force
+This function calculates the force of an object
 }

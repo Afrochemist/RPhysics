@@ -11,6 +11,9 @@ KE(m, v)
 
 \item{v}{The velocity at which the object is moving}
 }
+\value{
+The product of one half of the product of mass and velocity squared
+}
 \description{
 The function calculates the kinetic energy of an object
 }
