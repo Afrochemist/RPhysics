@@ -9,7 +9,7 @@
 #'@description This function claculates the weight of an object
 #'@return The product of mass and the gravity
 #'@export
-weight <-function(m){
+Weight <-function(m){
   return(m * 9.81)
 }
 
@@ -35,7 +35,7 @@ KE <- function(m,v){
 #'@description This function calculates the force of an object
 #'@return The of the mass and acceleration
 #'@export
-force <- function(m, a){
+Force <- function(m, a){
   return( m * a)
 }
 
@@ -81,7 +81,7 @@ caw <-function(w, r){
 #'@description This function calculates the frequency by taking the inverse of the period
 #'@return The inverse of the period
 #'@export
-frequency <- function(T){
+Frequency <- function(T){
   return( 1 / T)
 }
 
@@ -115,7 +115,7 @@ period <- function(f){
 #'@description This function calculates the density of an object
 #'@return The quotient of the mass over the volume
 #'@export
-density <- function(m,v){
+Density <- function(m,v){
   return( m / v)
 }
 
@@ -128,5 +128,5 @@ density <- function(m,v){
 #'@return The quotient of the force over the area
 #'@export
 pressure <- function(f,a){
-  return ( F / A)
+  return ( f / a)
 }
