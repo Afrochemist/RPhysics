@@ -51,6 +51,16 @@ p <- function(m,v) {
 }
 
 
+#'@title Impulse Momentum
+#'@param m The final value
+#'@param v The initial value
+#'@description The function multiplies the mass and velocity
+#'@return The product of mass and velocity
+#'@export
+ImpulseMomentum <- function(m,v){
+  return(m, v)
+}
+
 #'@title Centripetal Acceleration with velocity
 #'@param v The velocity
 #'@param r The radius
@@ -130,3 +140,19 @@ Density <- function(m,v){
 pressure <- function(f,a){
   return ( f / a)
 }
+
+
+
+
+
+#'@title Power
+#'@param f Force
+#'@param v Velocity
+#'@description The function multiplies the force and velocity
+#'@return The product of force and velocity
+#'@export
+Power <- function(f, v) {
+  return ( f * v)
+}
+
+

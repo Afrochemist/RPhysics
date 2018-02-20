@@ -14,3 +14,16 @@ delta <- function(xi, xf){
 
 
 
+
+#'@title Add
+#'@param b The final value
+#'@param a The initial value
+#'@description The function adds the inital and final value
+#'@return The addition of the final value and the initial value
+#'@export
+Add <- function(a, b){
+  return(a + b)
+}
+
+
+
