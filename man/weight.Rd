@@ -7,7 +7,7 @@
 Weight(m)
 }
 \arguments{
-\item{m}{The mass of the object}
+\item{m}{(kg) The mass of the object}
 }
 \value{
 The product of mass and the gravity

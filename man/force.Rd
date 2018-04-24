@@ -7,9 +7,9 @@
 Force(m, a)
 }
 \arguments{
-\item{m}{The mass}
+\item{m}{(kg) The mass}
 
-\item{a}{Acceleration}
+\item{a}{(m/s^2) Acceleration}
 }
 \value{
 The of the mass and acceleration

@@ -7,9 +7,9 @@
 Power(f, v)
 }
 \arguments{
-\item{f}{Force}
+\item{f}{(N) Force}
 
-\item{v}{Velocity}
+\item{v}{(m/s) Velocity}
 }
 \value{
 The product of force and velocity
