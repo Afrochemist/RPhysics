@@ -157,7 +157,7 @@ Power <- function(f, v) {
 }
 
 
-#'@title FWork
+#'@title Work
 #'@param F (N) Force
 #'@param x (m) distance
 Work <- function(F, x){
