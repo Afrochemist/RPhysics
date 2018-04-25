@@ -7,9 +7,11 @@
 ImpulseMomentum(m, v)
 }
 \arguments{
-\item{m}{The final value}
+\item{m}{The mass}
 
-\item{v}{The initial value}
+\item{vi}{The initial velocity}
+
+\item{vf}{The final velocity}
 }
 \value{
 The product of mass and velocity

@@ -7,9 +7,9 @@
 p(m, v)
 }
 \arguments{
-\item{m}{The mass of the object}
+\item{m}{(kg) The mass of the object}
 
-\item{v}{The velocity of the object}
+\item{v}{(m/s) The velocity of the object}
 }
 \value{
 The product of the mass and volume

@@ -7,9 +7,9 @@
 KE(m, v)
 }
 \arguments{
-\item{m}{The mass of an object}
+\item{m}{(kg) The mass of an object}
 
-\item{v}{The velocity at which the object is moving}
+\item{v}{(m/s) The velocity at which the object is moving}
 }
 \value{
 The product of one half of the product of mass and velocity squared
