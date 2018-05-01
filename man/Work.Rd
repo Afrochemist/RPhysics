@@ -2,7 +2,7 @@
 % Please edit documentation in R/functions.R
 \name{Work}
 \alias{Work}
-\title{FWork}
+\title{Work}
 \usage{
 Work(F, x)
 }
@@ -12,5 +12,5 @@ Work(F, x)
 \item{x}{(m) distance}
 }
 \description{
-FWork
+Work
 }
