@@ -13,6 +13,9 @@ Latent_Heat(m, L)
 
 \item{Q}{Heat (kJ)}
 }
+\value{
+The multiplication of mass and heat
+}
 \description{
-Latent heat
+This function calculates the Lantent Heat
 }
