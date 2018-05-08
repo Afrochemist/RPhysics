@@ -35,3 +35,25 @@ periodic_waves <- function(f,l){
 }
 
 
+#'@title Index of Fraction
+#'@param c velocity of light in the vacuum
+#'@param n index of fraction
+#'@param v velocity of light in the medium
+#'@description This function calculates the index of fraction
+#'@return The multplication of c and v
+#'@export
+Index_of_fraction <- function(c, v){
+  return(c / v)
+}
+
+
+
+#'@title Intensity
+#' @param P Power
+#' @param A Area
+#'@description This function calculates the intensity of light
+#' @return The quotient of power over area
+#' @export
+Intensity_of_Light <- function(P, A){
+  return (P / A)
+}
