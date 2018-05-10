@@ -4,14 +4,26 @@
 \alias{Index_of_fraction}
 \title{Index_of_fraction}
 \usage{
-Index_of_fraction(v)
+Index_of_fraction(c, v)
+
+Index_of_fraction(c, v)
 }
 \arguments{
+\item{c}{velocity of light in the vacuum}
+
 \item{v}{phase velocity}
+
+\item{n}{index of fraction}
+
+\item{v}{velocity of light in the medium}
 }
 \value{
 c / v
+
+The multplication of c and v
 }
 \description{
 This function is the quotient of the speed of light divided by the phase velocity
+
+This function calculates the index of fraction
 }
